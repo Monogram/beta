@@ -386,3 +386,8 @@ div#contact_us_img{
   line-height: 34px;
   padding-top: 18px;
 }
+
+.email {
+  color: #6D6E70;
+  text-decoration: none;
+}
