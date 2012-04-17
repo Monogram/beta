@@ -350,3 +350,35 @@ div#contact_us_img{
 .content_wrapper .content > div .data {
   font-size: 20px;
 }
+
+.contact_us.content {
+  float: left;
+  margin-left: 50px;
+}
+
+.contact_us.content .company {
+  color: #3FAE81;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.contact_us.content > div {
+  margin-top: 30px;
+}
+
+.contact_us.content > div > div {
+  line-height: 60px;
+}
+
+.contact_us.content .title {
+  color: #E680AB;
+  font-weight: bold;
+  font-size: 35px;
+  float: left;
+  clear: both;
+}
+
+.contact_us.content .data {
+  font-size: 25px;
+  float: left;
+}
