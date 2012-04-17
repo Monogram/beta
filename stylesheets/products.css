@@ -77,3 +77,14 @@
 #products .products_list_selecters[target="product_10.html"]{
   top:840px;
 }
+#product_content .products_row{
+  width:951px;
+}
+#product_content .product_item{
+  float:left;
+  width: 166px;
+  height: 222px;
+  margin-left: 40px;
+  margin-right: 30px;
+  cursor: pointer;
+}
