@@ -24,9 +24,14 @@
   margin-right: 10px;
 }
 
-#product .left_content .gallery .preview img {
+#product .left_content .gallery .preview img:not(.product_10_popup) {
   height: 100px;
   width: 100px;
+}
+
+#product .left_content .gallery .preview img.product_10_popup {
+  padding-left: 100px;
+  padding-top: 100px;
 }
 
 #product .right_content {
