@@ -134,6 +134,9 @@ div#footer_icons{
 
   float:right;
 }
+
+
+
 div#brand_vision_section.selected {
   background-image: url("../images/Web use-03.png");
 }
@@ -221,13 +224,32 @@ div#contact_us_img{
 /* Brand Vision */
 
 #brand-vision {
-  margin-left: 150px;
-  width: 940px;
-  color: #873E00;
+  margin-left: 40px;
+  width: 1210px;
+  color: #6D6E70;
+  padding-top: 40px;
 }
 
 #brand-vision p{
   font-weight: 300;
+}
+
+#brand-vision .bv_img {
+  display: block;
+  float: left;
+  height: 700px;
+  width: 500px;
+}
+#brand-vision .pink_header {
+  color: #E680AB;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#brand-vision span {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
 }
 
 
