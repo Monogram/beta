@@ -381,4 +381,7 @@ div#contact_us_img{
 .contact_us.content .data {
   font-size: 25px;
   float: left;
+  font-weight: normal;
+  line-height: 34px;
+  padding-top: 18px;
 }
