@@ -121,3 +121,9 @@ padding-left: 0px;
 #product .right_content .colors div{
   margin-left: 53px;
 }
+#product .right_content .colors .colors_to_right{
+  margin-left: 27px;
+}
+#product .right_content .content{
+  width: 530px;
+}
