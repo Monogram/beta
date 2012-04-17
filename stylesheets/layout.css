@@ -248,6 +248,11 @@ div#contact_us_img{
   display: block;
   float: left;
   margin-right: 35px;
+  padding: 30px 0;
+}
+
+#about p {
+  font-size: 20px;
 }
 
 #about .last_paragraph {
