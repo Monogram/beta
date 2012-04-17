@@ -44,11 +44,14 @@ div#header {
 
 #home_icon {
   background-image: url('../images/Web Use-02.png');
+  background-repeat: no-repeat;
+  background-position: left center;
   display: block;
   height: 112px;
-  width: 324px;
+  width: 1280px;
   cursor: pointer;
-  margin-left: 65px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 10px;
 }
 
@@ -59,7 +62,7 @@ div#header {
   width:100%;
 }
 #sections{
-  height: 40px;
+  height: 52px;
   width: 1280px;
   display:block;
   margin-left: auto;
@@ -68,7 +71,7 @@ div#header {
 }
 
 div#content {
-	padding-bottom:120px; /* bottom padding for footer */
+	padding-bottom:97px; /* bottom padding for footer */
         min-height: 580px;
   width: 1280px;
   margin-left: auto;
@@ -79,14 +82,13 @@ div#footer {
 	position:absolute;
 	width:100%;
 	bottom:0; /* stick to bottom */
-  height: 20px
+  height: 97px
 }
 div#footer #copyright{
   background-image: url("../images/Web use-20.png");
-  float: right;
+  background-position: right bottom;
   height: 18px;
   width: 379px;
-  text-align: right;
 }
 #cover{
   background-color: white;
@@ -102,7 +104,7 @@ div#footer #copyright{
   display: block;
   position: relative;
   top: 50%;
-  margin-top: -206px;
+  margin-top: -303px;
 }
 div.sections_btn{
   font-size: 18px;
@@ -127,7 +129,10 @@ div.icon_img{
   height: 171px;
   margin-top:54px;
 }
+div#footer_icons{
 
+  float:right;
+}
 div#brand_vision_section.selected {
   background-image: url("../images/Web use-03.png");
 }
@@ -178,7 +183,11 @@ div#contact_section{
   height: 52px;
   width: 242px;
 }
-
+div#footer_container{
+  width:1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
 div#icon_container{
   left: 278px;
   top: 46px;
