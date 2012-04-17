@@ -36,8 +36,8 @@
 
 #product .right_content .content {
   height: 560px;
-  width: 860px;
   position: absolute;
+  width: 600px;
 }
 
 #product .right_content .title {
@@ -121,9 +121,41 @@ padding-left: 0px;
 #product .right_content .colors div{
   margin-left: 53px;
 }
+
 #product .right_content .colors .colors_to_right{
   margin-left: 27px;
 }
 #product .right_content .content{
   width: 530px;
+}
+
+/* Custom CSS */
+.product_6_colors {
+  position: relative;
+  left: -65px;
+}
+
+#product_7 {
+  width: 600;
+}
+
+#product_7 .product_code {
+  margin-bottom: 20px;
+}
+
+#product_7 img.float_left {
+  margin-left: 20px;
+}
+
+.two_colors {
+  position: relative;
+  left: -105px;
+}
+
+.float_left {
+  float: left;
+}
+
+.p_7_right {
+  width: 220px;
 }
