@@ -24,7 +24,7 @@ div#container {
 	height:100%; /* IE6: treaded as min-height*/
 
 	min-height:100%; /* real browsers */
-  min-width: 1280px;
+  min-width: 1210px;
   width:100%;
 }
 
@@ -35,7 +35,7 @@ div#header {
 
 #icon_bar{
   height: 225px;
-  width: 1280px;
+  width: 1210px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ div#header {
   background-position: left center;
   display: block;
   height: 112px;
-  width: 1280px;
+  width: 1210px;
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
@@ -56,14 +56,14 @@ div#header {
 }
 
 #top_bar{
-  height: 40px;
+  height: 52px;
   background-color: white;
-  min-width: 1280px;
+  min-width: 1210px;
   width:100%;
 }
 #sections{
   height: 52px;
-  width: 1280px;
+  width: 1210px;
   display:block;
   margin-left: auto;
   margin-right: auto;
@@ -73,9 +73,10 @@ div#header {
 div#content {
 	padding-bottom:97px; /* bottom padding for footer */
         min-height: 580px;
-  width: 1280px;
+  width: 1210px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 
 div#footer {
@@ -142,7 +143,6 @@ div#brand_vision_section {
   display: block;
   height: 52px;
   width: 242px;
-  margin-left: 40px;
 }
 
 div#about_section.selected {
@@ -184,7 +184,7 @@ div#contact_section{
   width: 242px;
 }
 div#footer_container{
-  width:1280px;
+  width:1210px;
   margin-left: auto;
   margin-right: auto;
 }
