@@ -298,3 +298,38 @@ div#contact_us_img{
   width: 850px;
   height: 400px;
 }
+
+.section {
+  float: left;
+}
+
+.content_wrapper {
+  float: right;
+  position: relative;
+}
+
+.content_wrapper .content {
+  left: 50px;
+  top: 60px;
+  position: absolute;
+}
+
+.content_wrapper .content > div {
+  float: left;
+  position: relative;
+}
+
+.content_wrapper .content > div > img {
+  position: absolute;
+  top: -10px;
+}
+
+.content_wrapper .content > div .title {
+  color: #E680AB;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.content_wrapper .content > div .data {
+  font-size: 20px;
+}
