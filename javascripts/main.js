@@ -14,7 +14,7 @@
       $("#icon_bar div").removeClass('selected');
       $("#brand_vision_img").addClass("selected");
       $("#sections div").removeClass("selected");
-      $("#sections div").last().addClass("selected");
+      $("#sections div#brand_vision_section").addClass("selected");
     });
 
     $("#cover img").live("click", function(e){
