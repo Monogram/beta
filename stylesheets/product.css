@@ -13,6 +13,7 @@
 #product .left_content .gallery .main {
   height: 340px;
   width: 325px;
+  cursor: pointer;
 }
 
 #product .left_content .gallery .previews {
@@ -22,6 +23,7 @@
 #product .left_content .gallery .previews .preview {
   float: left;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 #product .left_content .gallery .preview img:not(.product_10_popup) {
